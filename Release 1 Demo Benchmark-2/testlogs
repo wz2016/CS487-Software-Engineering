@@ -1,0 +1,184 @@
+Test Suite 'Selected tests' started at 2014-11-06 08:16:11 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:16:11 +0000
+Test Suite 'WaiterTest' started at 2014-11-06 08:16:11 +0000
+Test Case '-[WaiterTest testViewMenu]' started.
+2014-11-06 02:16:11.714 iRestaurant[7552:160916] url:http://localhost/iRestaurant/index.php/Manager/viewMenuItems/
+2014-11-06 02:16:11.714 iRestaurant[7552:160916] return:[{"id":"1","name":"pizza","price":"12","description":"","type":"food "},{"id":"2","name":"hot dog","price":"5","description":"","type":"food"},{"id":"7","name":"Chicago dog ","price":"7","description":"","type":"food "},{"id":"8","name":"burger ","price":"5","description":"","type":"none"},{"id":"9","name":"sanwich","price":"12","description":"","type":"food"}]
+Test Case '-[WaiterTest testViewMenu]' passed (0.050 seconds).
+Test Suite 'WaiterTest' passed at 2014-11-06 08:16:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.050 (0.050) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:16:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.050 (0.051) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:16:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.050 (0.054) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:16:28 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:16:28 +0000
+Test Suite 'WaiterTest' started at 2014-11-06 08:16:28 +0000
+Test Case '-[WaiterTest testSubmitOrder]' started.
+2014-11-06 02:16:28.541 iRestaurant[7594:161267] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:16:28.542 iRestaurant[7594:161267] return:no
+2014-11-06 02:16:28.568 iRestaurant[7594:161267] url:http://localhost/iRestaurant/index.php/Waiter/makeOrder/
+2014-11-06 02:16:28.568 iRestaurant[7594:161267] return:
+Test Case '-[WaiterTest testSubmitOrder]' passed (0.075 seconds).
+Test Suite 'WaiterTest' passed at 2014-11-06 08:16:28 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.075 (0.075) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:16:28 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.075 (0.076) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:16:28 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.075 (0.078) seconds
+
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:17:11 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:17:11 +0000
+Test Suite 'WaiterTest' started at 2014-11-06 08:17:11 +0000
+Test Case '-[WaiterTest testViewUndelieveredOrders]' started.
+2014-11-06 02:17:11.527 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/viewTables/
+2014-11-06 02:17:11.527 iRestaurant[7668:161937] return:[{"table_id":"1","status":"occupied"},{"table_id":"2","status":"occupied"},{"table_id":"3","status":"occupied"},{"table_id":"5","status":"occupied"},{"table_id":"6","status":"occupied"},{"table_id":"7","status":"occupied"},{"table_id":"8","status":"occupied"},{"table_id":"9","status":"vacant"},{"table_id":"10","status":"occupied"},{"table_id":"11","status":"occupied"},{"table_id":"12","status":"vacant"},{"table_id":"13","status":"occupied"},{"table_id":"14","status":"vacant"},{"table_id":"15","status":"occupied"}]
+2014-11-06 02:17:11.547 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.547 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.567 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.567 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.588 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.588 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.605 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.606 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.629 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.629 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.650 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.650 iRestaurant[7668:161937] return:no
+2014-11-06 02:17:11.672 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:17:11.672 iRestaurant[7668:161937] return:yes
+2014-11-06 02:17:11.690 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Waiter/makeOrder/
+2014-11-06 02:17:11.690 iRestaurant[7668:161937] return:yes,38
+2014-11-06 02:17:11.705 iRestaurant[7668:161937] url:http://localhost/iRestaurant/index.php/Kitchenassistant/viewWaitingItems/
+2014-11-06 02:17:11.705 iRestaurant[7668:161937] return:[{"order_item_id":"22","order_id":"34","menu_item_name":"sanwich","status":"waiting","amount":"4","time":"2014-11-05 00:07:51","table_id":"7"},{"order_item_id":"23","order_id":"34","menu_item_name":"pizza","status":"waiting","amount":"3","time":"2014-11-05 00:07:51","table_id":"7"},{"order_item_id":"24","order_id":"34","menu_item_name":"pizza","status":"waiting","amount":"3","time":"2014-11-05 00:07:51","table_id":"7"},{"order_item_id":"26","order_id":"35","menu_item_name":"pizza","status":"waiting","amount":"3","time":"2014-11-05 13:42:25","table_id":"8"},{"order_item_id":"25","order_id":"35","menu_item_name":"hot dog","status":"waiting","amount":"2","time":"2014-11-05 13:42:25","table_id":"8"},{"order_item_id":"27","order_id":"36","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:08:14","table_id":"13"},{"order_item_id":"28","order_id":"36","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:08:14","table_id":"13"},{"order_item_id":"29","order_id":"37","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:16:42","table_id":"15"},{"order_item_id":"30","order_id":"37","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:16:42","table_id":"15"},{"order_item_id":"32","order_id":"38","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:17:11","table_id":"16"},{"order_item_id":"31","order_id":"38","menu_item_name":"Pizza","status":"waiting","amount":"3","time":"2014-11-06 02:17:11","table_id":"16"}]
+Test Case '-[WaiterTest testViewUndelieveredOrders]' passed (0.240 seconds).
+Test Suite 'WaiterTest' passed at 2014-11-06 08:17:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.240 (0.241) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:17:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.240 (0.242) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:17:11 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.240 (0.244) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:17:51 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:17:51 +0000
+Test Suite 'WaiterTest' started at 2014-11-06 08:17:51 +0000
+Test Case '-[WaiterTest testLookupBill]' started.
+2014-11-06 02:17:51.192 iRestaurant[7725:162362] url:http://localhost/iRestaurant/index.php/Waiter/viewBillingOrder/
+2014-11-06 02:17:51.192 iRestaurant[7725:162362] return:[{"order_item_id":"11","order_id":"26","menu_item_name":"hot dog","status":"paied","amount":"2","id":"2","name":"hot dog","price":"5","description":"","type":"food"}]
+Test Case '-[WaiterTest testLookupBill]' passed (0.049 seconds).
+Test Suite 'WaiterTest' passed at 2014-11-06 08:17:51 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.049 (0.050) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:17:51 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.049 (0.051) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:17:51 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.049 (0.052) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:14:54 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:14:54 +0000
+Test Suite 'iRestaurantTests' started at 2014-11-06 08:14:54 +0000
+Test Case '-[iRestaurantTests testViewEmployee]' started.
+2014-11-06 02:14:54.601 iRestaurant[7424:159747] url:http://localhost/iRestaurant/index.php/Manager/viewEmployees/
+2014-11-06 02:14:54.601 iRestaurant[7424:159747] return:[{"s_id":"15","first_name":"david","last_name":"silverman","type":"Kitchen Assistant","salaries":"20","account_name":"david"},{"s_id":"13","first_name":"Weilun","last_name":"Zhao","type":"Waiter","salaries":"18","account_name":"zhao111"},{"s_id":"10","first_name":"Yu","last_name":"Jin","type":"Waiter","salaries":"20","account_name":"yjin"}]
+Test Case '-[iRestaurantTests testViewEmployee]' passed (0.053 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:14:54 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.053 (0.054) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:14:54 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.053 (0.055) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:14:54 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.053 (0.056) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:15:30 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:15:30 +0000
+Test Suite 'iRestaurantTests' started at 2014-11-06 08:15:30 +0000
+Test Case '-[iRestaurantTests testDeleteEmployee]' started.
+2014-11-06 02:15:30.306 iRestaurant[7476:160161] url:http://localhost/iRestaurant/index.php/Manager/viewEmployees/
+2014-11-06 02:15:30.306 iRestaurant[7476:160161] return:[{"s_id":"15","first_name":"david","last_name":"silverman","type":"Kitchen Assistant","salaries":"20","account_name":"david"},{"s_id":"13","first_name":"Weilun","last_name":"Zhao","type":"Waiter","salaries":"18","account_name":"zhao111"},{"s_id":"10","first_name":"Yu","last_name":"Jin","type":"Waiter","salaries":"20","account_name":"yjin"}]
+2014-11-06 02:15:30.327 iRestaurant[7476:160161] url:http://localhost/iRestaurant/index.php/Manager/fireEmployee/
+2014-11-06 02:15:30.328 iRestaurant[7476:160161] return:yes
+2014-11-06 02:15:30.349 iRestaurant[7476:160161] url:http://localhost/iRestaurant/index.php/Manager/viewEmployees/
+2014-11-06 02:15:30.349 iRestaurant[7476:160161] return:[{"s_id":"13","first_name":"Weilun","last_name":"Zhao","type":"Waiter","salaries":"18","account_name":"zhao111"},{"s_id":"10","first_name":"Yu","last_name":"Jin","type":"Waiter","salaries":"20","account_name":"yjin"}]
+Test Case '-[iRestaurantTests testDeleteEmployee]' passed (0.096 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:15:30 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.096 (0.097) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:15:30 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.096 (0.098) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:15:30 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.096 (0.100) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:15:49 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:15:49 +0000
+Test Suite 'iRestaurantTests' started at 2014-11-06 08:15:49 +0000
+Test Case '-[iRestaurantTests testAddMenuItem]' started.
+Test Case '-[iRestaurantTests testAddMenuItem]' passed (0.000 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:15:49 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:15:49 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.002) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:15:49 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.004) seconds
+
+
+
+Test Case '-[iRestaurantTests testDeleteMenuItem]' started.
+2014-11-06 02:13:20.200 iRestaurant[7288:158371] url:http://localhost/iRestaurant/index.php/Manager/viewMenuItems/
+2014-11-06 02:13:20.200 iRestaurant[7288:158371] return:[{"id":"1","name":"pizza","price":"12","description":"","type":"food "},{"id":"2","name":"hot dog","price":"5","description":"","type":"food"},{"id":"7","name":"Chicago dog ","price":"7","description":"","type":"food "},{"id":"8","name":"burger ","price":"5","description":"","type":"none"},{"id":"9","name":"sanwich","price":"12","description":"","type":"food"}]
+2014-11-06 02:13:20.224 iRestaurant[7288:158371] url:http://localhost/iRestaurant/index.php/Manager/removeMenuItem/
+2014-11-06 02:13:20.224 iRestaurant[7288:158371] return:yes
+2014-11-06 02:13:20.242 iRestaurant[7288:158371] url:http://localhost/iRestaurant/index.php/Manager/viewMenuItems/
+2014-11-06 02:13:20.242 iRestaurant[7288:158371] return:[{"id":"1","name":"pizza","price":"12","description":"","type":"food "},{"id":"2","name":"hot dog","price":"5","description":"","type":"food"},{"id":"7","name":"Chicago dog ","price":"7","description":"","type":"food "},{"id":"8","name":"burger ","price":"5","description":"","type":"none"},{"id":"9","name":"sanwich","price":"12","description":"","type":"food"}]
+Test Case '-[iRestaurantTests testDeleteMenuItem]' passed (0.102 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:13:20 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.102 (0.103) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:13:20 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.102 (0.104) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:13:20 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.102 (0.106) seconds
+
+
+Test Suite 'Selected tests' started at 2014-11-06 08:14:03 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:14:03 +0000
+Test Suite 'iRestaurantTests' started at 2014-11-06 08:14:03 +0000
+Test Case '-[iRestaurantTests testViewTables]' started.
+2014-11-06 02:14:03.618 iRestaurant[7340:158851] url:http://localhost/iRestaurant/index.php/Manager/viewTables/
+2014-11-06 02:14:03.618 iRestaurant[7340:158851] return:[{"table_id":"1","status":"occupied"},{"table_id":"2","status":"occupied"},{"table_id":"3","status":"occupied"},{"table_id":"5","status":"occupied"},{"table_id":"6","status":"occupied"},{"table_id":"7","status":"occupied"},{"table_id":"8","status":"occupied"},{"table_id":"9","status":"vacant"},{"table_id":"10","status":"occupied"},{"table_id":"11","status":"occupied"},{"table_id":"12","status":"vacant"},{"table_id":"13","status":"occupied"}]
+Test Case '-[iRestaurantTests testViewTables]' passed (0.047 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:14:03 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.047 (0.048) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:14:03 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.047 (0.049) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:14:03 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.047 (0.050) seconds
+
+Test Suite 'Selected tests' started at 2014-11-06 08:14:34 +0000
+Test Suite 'iRestaurantTests.xctest' started at 2014-11-06 08:14:34 +0000
+Test Suite 'iRestaurantTests' started at 2014-11-06 08:14:34 +0000
+Test Case '-[iRestaurantTests testAddNewTable]' started.
+2014-11-06 02:14:34.229 iRestaurant[7392:159367] url:http://localhost/iRestaurant/index.php/Manager/viewTables/
+2014-11-06 02:14:34.229 iRestaurant[7392:159367] return:[{"table_id":"1","status":"occupied"},{"table_id":"2","status":"occupied"},{"table_id":"3","status":"occupied"},{"table_id":"5","status":"occupied"},{"table_id":"6","status":"occupied"},{"table_id":"7","status":"occupied"},{"table_id":"8","status":"occupied"},{"table_id":"9","status":"vacant"},{"table_id":"10","status":"occupied"},{"table_id":"11","status":"occupied"},{"table_id":"12","status":"vacant"},{"table_id":"13","status":"occupied"}]
+2014-11-06 02:14:34.251 iRestaurant[7392:159367] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:14:34.251 iRestaurant[7392:159367] return:no
+2014-11-06 02:14:34.288 iRestaurant[7392:159367] url:http://localhost/iRestaurant/index.php/Manager/addNewTable/
+2014-11-06 02:14:34.289 iRestaurant[7392:159367] return:yes
+2014-11-06 02:14:34.315 iRestaurant[7392:159367] url:http://localhost/iRestaurant/index.php/Manager/viewTables/
+2014-11-06 02:14:34.316 iRestaurant[7392:159367] return:[{"table_id":"1","status":"occupied"},{"table_id":"2","status":"occupied"},{"table_id":"3","status":"occupied"},{"table_id":"5","status":"occupied"},{"table_id":"6","status":"occupied"},{"table_id":"7","status":"occupied"},{"table_id":"8","status":"occupied"},{"table_id":"9","status":"vacant"},{"table_id":"10","status":"occupied"},{"table_id":"11","status":"occupied"},{"table_id":"12","status":"vacant"},{"table_id":"13","status":"occupied"},{"table_id":"14","status":"vacant"}]
+Test Case '-[iRestaurantTests testAddNewTable]' passed (0.139 seconds).
+Test Suite 'iRestaurantTests' passed at 2014-11-06 08:14:34 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.139 (0.140) seconds
+Test Suite 'iRestaurantTests.xctest' passed at 2014-11-06 08:14:34 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.139 (0.141) seconds
+Test Suite 'Selected tests' passed at 2014-11-06 08:14:34 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.139 (0.148) seconds
+
+
+
+
+
+
